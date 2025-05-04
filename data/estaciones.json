@@ -1,682 +1,682 @@
 [
   {
     "name": "21 Ángeles",
-    "lat": 4.612362,
-    "lon": -74.009857
+    "lat": 4.735434,
+    "lon": -74.080854
   },
   {
     "name": "7 de Agosto",
-    "lat": 4.719598,
-    "lon": -74.080268
+    "lat": 4.657291,
+    "lon": -74.077663
   },
   {
     "name": "Alcalá",
-    "lat": 4.546806,
-    "lon": -74.168801
+    "lat": 4.722917,
+    "lon": -74.050682
   },
   {
     "name": "Alquería",
-    "lat": 4.517425,
-    "lon": -74.026765
+    "lat": 4.6177,
+    "lon": -74.1337
   },
   {
     "name": "Av. 1 de Mayo",
-    "lat": 4.680335,
-    "lon": -74.058385
+    "lat": 4.6145,
+    "lon": -74.1412
   },
   {
     "name": "Av. Suba - Av. Boyacá",
-    "lat": 4.506175,
-    "lon": -74.006018
+    "lat": 4.7057,
+    "lon": -74.0903
   },
   {
     "name": "Av. Suba - Calle 100",
-    "lat": 4.749733,
-    "lon": -74.157532
+    "lat": 4.6887,
+    "lon": -74.0817
   },
   {
     "name": "Av. Suba - Calle 116",
-    "lat": 4.554547,
-    "lon": -74.163319
+    "lat": 4.6972,
+    "lon": -74.0865
   },
   {
     "name": "Av. Suba - Calle 95",
-    "lat": 4.591273,
-    "lon": -74.095049
+    "lat": 4.6853,
+    "lon": -74.0798
   },
   {
     "name": "Av. Suba - Tv. 91",
-    "lat": 4.629584,
-    "lon": -74.141754
+    "lat": 4.7021,
+    "lon": -74.0882
   },
   {
     "name": "Avenida 39",
-    "lat": 4.683556,
-    "lon": -74.172101
+    "lat": 4.6278,
+    "lon": -74.0705
   },
   {
     "name": "Avenida 68",
-    "lat": 4.587643,
-    "lon": -74.126728
+    "lat": 4.6862,
+    "lon": -74.1053
   },
   {
     "name": "Avenida Cali",
-    "lat": 4.636821,
-    "lon": -74.042965
+    "lat": 4.6523,
+    "lon": -74.1178
   },
   {
     "name": "Avenida Chile",
-    "lat": 4.559902,
-    "lon": -74.097153
+    "lat": 4.653927,
+    "lon": -74.06269
   },
   {
     "name": "Avenida El Dorado",
-    "lat": 4.677724,
-    "lon": -74.19071
+    "lat": 4.6647,
+    "lon": -74.0987
   },
   {
     "name": "Avenida Jiménez",
-    "lat": 4.682263,
-    "lon": -74.165895
+    "lat": 4.6032,
+    "lon": -74.0785
   },
   {
     "name": "Biblioteca",
-    "lat": 4.519515,
-    "lon": -74.010223
+    "lat": 4.619892,
+    "lon": -74.136925
   },
   {
     "name": "Biblioteca Tintal",
-    "lat": 4.78969,
-    "lon": -74.038321
+    "lat": 4.6275,
+    "lon": -74.1523
   },
   {
     "name": "Bicentenario",
-    "lat": 4.591384,
-    "lon": -74.180466
+    "lat": 4.601269,
+    "lon": -74.071029
   },
   {
     "name": "Bosa",
-    "lat": 4.70527,
-    "lon": -74.11197
+    "lat": 4.631765,
+    "lon": -74.162104
   },
   {
     "name": "Boyacá",
-    "lat": 4.536611,
-    "lon": -74.100965
+    "lat": 4.659586,
+    "lon": -74.10743
   },
   {
     "name": "CAD",
-    "lat": 4.510317,
-    "lon": -74.018136
+    "lat": 4.6223,
+    "lon": -74.1235
   },
   {
     "name": "Calle 100 - Marketmedios",
-    "lat": 4.577634,
-    "lon": -74.067496
+    "lat": 4.6887,
+    "lon": -74.0817
   },
   {
     "name": "Calle 106",
-    "lat": 4.593513,
-    "lon": -74.095986
+    "lat": 4.697526,
+    "lon": -74.05587
   },
   {
     "name": "Calle 110 (Pepe Sierra)",
-    "lat": 4.664013,
-    "lon": -74.163029
+    "lat": 4.6942,
+    "lon": -74.0487
   },
   {
     "name": "Calle 127",
-    "lat": 4.790875,
-    "lon": -74.044973
+    "lat": 4.709447,
+    "lon": -74.058295
   },
   {
     "name": "Calle 142",
-    "lat": 4.78185,
-    "lon": -74.021035
+    "lat": 4.721645,
+    "lon": -74.062044
   },
   {
     "name": "Calle 146",
-    "lat": 4.67937,
-    "lon": -74.015625
+    "lat": 4.726613,
+    "lon": -74.064941
   },
   {
     "name": "Calle 187",
-    "lat": 4.526548,
-    "lon": -74.160803
+    "lat": 4.761815,
+    "lon": -74.080821
   },
   {
     "name": "Calle 19",
-    "lat": 4.513568,
-    "lon": -74.134934
+    "lat": 4.603608,
+    "lon": -74.073083
   },
   {
     "name": "Calle 22",
-    "lat": 4.616603,
-    "lon": -74.14573
+    "lat": 4.605902,
+    "lon": -74.072733
   },
   {
     "name": "Calle 26",
-    "lat": 4.748621,
-    "lon": -74.128649
+    "lat": 4.610831,
+    "lon": -74.074537
   },
   {
     "name": "Calle 30 S (NQS)",
-    "lat": 4.58428,
-    "lon": -74.091461
+    "lat": 4.5847,
+    "lon": -74.1157
   },
   {
     "name": "Calle 34",
-    "lat": 4.542277,
-    "lon": -74.039561
+    "lat": 4.615987,
+    "lon": -74.076835
   },
   {
     "name": "Calle 34/32 (San Façon - Carrera 22)",
-    "lat": 4.522365,
-    "lon": -74.002623
+    "lat": 4.6225,
+    "lon": -74.0718
   },
   {
     "name": "Calle 40 Sur",
-    "lat": 4.731673,
-    "lon": -74.160257
+    "lat": 4.585979,
+    "lon": -74.116852
   },
   {
     "name": "Calle 45 - American School Way",
-    "lat": 4.501657,
-    "lon": -74.036908
+    "lat": 4.6332,
+    "lon": -74.0687
   },
   {
     "name": "Calle 57",
-    "lat": 4.712057,
-    "lon": -74.054199
+    "lat": 4.637216,
+    "lon": -74.073198
   },
   {
     "name": "Calle 63",
-    "lat": 4.731381,
-    "lon": -74.185191
+    "lat": 4.64627,
+    "lon": -74.076343
   },
   {
     "name": "Calle 69 (Flores - Areandina)",
-    "lat": 4.60754,
-    "lon": -74.176826
+    "lat": 4.6578,
+    "lon": -74.0612
   },
   {
     "name": "Calle 72",
-    "lat": 4.758931,
-    "lon": -74.07534
+    "lat": 4.658686,
+    "lon": -74.060264
   },
   {
     "name": "Calle 75 - Zona M",
-    "lat": 4.599269,
-    "lon": -74.187288
+    "lat": 4.6635,
+    "lon": -74.0593
   },
   {
     "name": "Calle 76 - San Felipe",
-    "lat": 4.593295,
-    "lon": -74.134963
+    "lat": 4.6723,
+    "lon": -74.0732
   },
   {
     "name": "Calle 85",
-    "lat": 4.718882,
-    "lon": -74.072489
+    "lat": 4.67141,
+    "lon": -74.059078
   },
   {
     "name": "Carrera 32 (CDS - Carrera 32)",
-    "lat": 4.766164,
-    "lon": -74.105557
+    "lat": 4.6105,
+    "lon": -74.0853
   },
   {
     "name": "Carrera 43 - COMAPAN",
-    "lat": 4.535878,
-    "lon": -74.057351
+    "lat": 4.6198,
+    "lon": -74.1287
   },
   {
     "name": "Carrera 47",
-    "lat": 4.728236,
-    "lon": -74.087745
+    "lat": 4.651579,
+    "lon": -74.064081
   },
   {
     "name": "Carrera 53",
-    "lat": 4.73129,
-    "lon": -74.101241
+    "lat": 4.657882,
+    "lon": -74.067398
   },
   {
     "name": "Carrera 90",
-    "lat": 4.65682,
-    "lon": -74.114492
+    "lat": 4.629884,
+    "lon": -74.160395
   },
   {
     "name": "Centro Comercial Paseo Villa del Río - Madelena",
-    "lat": 4.507626,
-    "lon": -74.178422
+    "lat": 4.5652,
+    "lon": -74.1587
   },
   {
     "name": "Centro Memoria",
-    "lat": 4.509429,
-    "lon": -74.072718
+    "lat": 4.639437,
+    "lon": -74.082063
   },
   {
     "name": "Ciudad Jardín",
-    "lat": 4.594307,
-    "lon": -74.098286
+    "lat": 4.7072,
+    "lon": -74.0915
   },
   {
     "name": "Ciudad Universitaria",
-    "lat": 4.77227,
-    "lon": -74.150142
+    "lat": 4.6357,
+    "lon": -74.0872
   },
   {
     "name": "Comuneros",
-    "lat": 4.623115,
-    "lon": -74.04889
+    "lat": 4.6047,
+    "lon": -74.0978
   },
   {
     "name": "Concejo de Bogotá",
-    "lat": 4.568639,
-    "lon": -74.184604
+    "lat": 4.6025,
+    "lon": -74.0753
   },
   {
     "name": "Consuelo",
-    "lat": 4.586925,
-    "lon": -74.167756
+    "lat": 4.582896,
+    "lon": -74.134149
   },
   {
     "name": "Country Sur",
-    "lat": 4.778909,
-    "lon": -74.038376
+    "lat": 4.6142,
+    "lon": -74.1257
   },
   {
     "name": "De La Sabana",
-    "lat": 4.690021,
-    "lon": -74.025708
+    "lat": 4.6005,
+    "lon": -74.0768
   },
   {
     "name": "Distrito Grafiti",
-    "lat": 4.741102,
-    "lon": -74.162686
+    "lat": 4.6562,
+    "lon": -74.0835
   },
   {
     "name": "El Campín - Universidad Antonio Nariño",
-    "lat": 4.767768,
-    "lon": -74.092132
+    "lat": 4.6457,
+    "lon": -74.0827
   },
   {
     "name": "El Tiempo - Maloka",
-    "lat": 4.742232,
-    "lon": -74.020782
+    "lat": 4.656038,
+    "lon": -74.110587
   },
   {
     "name": "Escuela Militar",
-    "lat": 4.595401,
-    "lon": -74.17799
+    "lat": 4.6392,
+    "lon": -74.0675
   },
   {
     "name": "Estación Central",
-    "lat": 4.568381,
-    "lon": -74.114578
+    "lat": 4.6157,
+    "lon": -74.0732
   },
   {
     "name": "Fucha",
-    "lat": 4.745404,
-    "lon": -74.027854
+    "lat": 4.5867,
+    "lon": -74.0853
   },
   {
     "name": "General Santander",
-    "lat": 4.502086,
-    "lon": -74.097851
+    "lat": 4.619219,
+    "lon": -74.100712
   },
   {
     "name": "Gobernación",
-    "lat": 4.625223,
-    "lon": -74.155578
+    "lat": 4.6612,
+    "lon": -74.0927
   },
   {
     "name": "Granja - Carrera 77",
-    "lat": 4.53596,
-    "lon": -74.132477
+    "lat": 4.6698,
+    "lon": -74.1285
   },
   {
     "name": "Gratamira",
-    "lat": 4.782873,
-    "lon": -74.135359
+    "lat": 4.7105,
+    "lon": -74.0923
   },
   {
     "name": "Guatoque - Veraguas",
-    "lat": 4.655637,
-    "lon": -74.059396
+    "lat": 4.607078,
+    "lon": -74.099084
   },
   {
     "name": "Hortúa",
-    "lat": 4.609089,
-    "lon": -74.005644
+    "lat": 4.5902,
+    "lon": -74.0837
   },
   {
     "name": "Hospital",
-    "lat": 4.788734,
-    "lon": -74.149644
+    "lat": 4.579993,
+    "lon": -74.096722
   },
   {
     "name": "Humedal Córdoba",
-    "lat": 4.649175,
-    "lon": -74.139824
+    "lat": 4.7047,
+    "lon": -74.0895
   },
   {
     "name": "Héroes - Gel'hada",
-    "lat": 4.585452,
-    "lon": -74.192623
+    "lat": 4.6687,
+    "lon": -74.0587
   },
   {
     "name": "La Campiña",
-    "lat": 4.682869,
-    "lon": -74.099464
+    "lat": 4.742543,
+    "lon": -74.091056
   },
   {
     "name": "La Castellana",
-    "lat": 4.515444,
-    "lon": -74.144271
+    "lat": 4.678238,
+    "lon": -74.064957
   },
   {
     "name": "La Despensa",
-    "lat": 4.77248,
-    "lon": -74.152088
+    "lat": 4.58847,
+    "lon": -74.196667
   },
   {
     "name": "Las Aguas",
-    "lat": 4.543468,
-    "lon": -74.102109
+    "lat": 4.6012,
+    "lon": -74.0705
   },
   {
     "name": "Las Nieves",
-    "lat": 4.795695,
-    "lon": -74.151589
+    "lat": 4.6067,
+    "lon": -74.0745
   },
   {
     "name": "León XIII",
-    "lat": 4.701641,
-    "lon": -74.047676
+    "lat": 4.588835,
+    "lon": -74.180579
   },
   {
     "name": "Mandalay",
-    "lat": 4.571291,
-    "lon": -74.054357
+    "lat": 4.6187,
+    "lon": -74.1453
   },
   {
     "name": "Marly",
-    "lat": 4.610335,
-    "lon": -74.073539
+    "lat": 4.642223,
+    "lon": -74.065536
   },
   {
     "name": "Mazurén",
-    "lat": 4.690059,
-    "lon": -74.092845
+    "lat": 4.749725,
+    "lon": -74.055055
   },
   {
     "name": "Minuto de Dios",
-    "lat": 4.527087,
-    "lon": -74.03294
+    "lat": 4.690318,
+    "lon": -74.092531
   },
   {
     "name": "Molinos",
-    "lat": 4.596234,
-    "lon": -74.162696
+    "lat": 4.612907,
+    "lon": -74.095074
   },
   {
     "name": "Movistar Arena",
-    "lat": 4.512233,
-    "lon": -74.081821
+    "lat": 4.6523,
+    "lon": -74.0785
   },
   {
     "name": "Museo Nacional",
-    "lat": 4.703269,
-    "lon": -74.196682
+    "lat": 4.6172,
+    "lon": -74.0728
   },
   {
     "name": "Museo del Oro",
-    "lat": 4.653628,
-    "lon": -74.154701
+    "lat": 4.6017,
+    "lon": -74.0732
   },
   {
     "name": "NQS Calle 30 S",
-    "lat": 4.693552,
-    "lon": -74.165127
+    "lat": 4.5847,
+    "lon": -74.1157
   },
   {
     "name": "NQS Calle 38A Sur",
-    "lat": 4.707281,
-    "lon": -74.122653
+    "lat": 4.5782,
+    "lon": -74.1187
   },
   {
     "name": "Nariño",
-    "lat": 4.781019,
-    "lon": -74.172496
+    "lat": 4.577715,
+    "lon": -74.08847
   },
   {
     "name": "Niza - Calle 127",
-    "lat": 4.60232,
-    "lon": -74.177305
+    "lat": 4.7047,
+    "lon": -74.0895
   },
   {
     "name": "Olaya",
-    "lat": 4.777408,
-    "lon": -74.024532
+    "lat": 4.580771,
+    "lon": -74.109618
   },
   {
     "name": "Paloquemao",
-    "lat": 4.577382,
-    "lon": -74.068003
+    "lat": 4.623055,
+    "lon": -74.091238
   },
   {
     "name": "Parque",
-    "lat": 4.745167,
-    "lon": -74.08896
+    "lat": 4.6392,
+    "lon": -74.0675
   },
   {
     "name": "Patio Bonito",
-    "lat": 4.658895,
-    "lon": -74.15163
+    "lat": 4.6257,
+    "lon": -74.1505
   },
   {
     "name": "Perdomo",
-    "lat": 4.527931,
-    "lon": -74.020557
+    "lat": 4.61344,
+    "lon": -74.154932
   },
   {
     "name": "Policarpa",
-    "lat": 4.770125,
-    "lon": -74.07338
+    "lat": 4.595426,
+    "lon": -74.085381
   },
   {
     "name": "Polo",
-    "lat": 4.601709,
-    "lon": -74.130158
+    "lat": 4.6642,
+    "lon": -74.059
   },
   {
     "name": "Portal 20 de Julio",
-    "lat": 4.717787,
-    "lon": -74.020578
+    "lat": 4.589172,
+    "lon": -74.08784
   },
   {
     "name": "Portal Sur - JFK Cooperativa Financiera",
-    "lat": 4.766126,
-    "lon": -74.044025
+    "lat": 4.5557,
+    "lon": -74.1287
   },
   {
     "name": "Portal Tunal",
-    "lat": 4.692609,
-    "lon": -74.183172
+    "lat": 4.563636,
+    "lon": -74.127232
   },
   {
     "name": "Portal de Las Américas",
-    "lat": 4.548489,
-    "lon": -74.020289
+    "lat": 4.6175,
+    "lon": -74.1587
   },
   {
     "name": "Portal de Suba",
-    "lat": 4.681929,
-    "lon": -74.198161
+    "lat": 4.7227,
+    "lon": -74.0985
   },
   {
     "name": "Portal del Norte",
-    "lat": 4.530441,
-    "lon": -74.0673
+    "lat": 4.7547,
+    "lon": -74.0457
   },
   {
     "name": "Pradera",
-    "lat": 4.501518,
-    "lon": -74.167838
+    "lat": 4.623805,
+    "lon": -74.127346
   },
   {
     "name": "Prado",
-    "lat": 4.66462,
-    "lon": -74.061621
+    "lat": 4.7092,
+    "lon": -74.0505
   },
   {
     "name": "Puente Aranda",
-    "lat": 4.695588,
-    "lon": -74.155146
+    "lat": 4.625335,
+    "lon": -74.099989
   },
   {
     "name": "Puente Largo",
-    "lat": 4.713654,
-    "lon": -74.15255
+    "lat": 4.697835,
+    "lon": -74.070579
   },
   {
     "name": "Quinta Paredes",
-    "lat": 4.59762,
-    "lon": -74.050702
+    "lat": 4.6587,
+    "lon": -74.0872
   },
   {
     "name": "Quirigua",
-    "lat": 4.69489,
-    "lon": -74.030155
+    "lat": 4.712194,
+    "lon": -74.106343
   },
   {
     "name": "Quiroga",
-    "lat": 4.697284,
-    "lon": -74.086338
+    "lat": 4.5787,
+    "lon": -74.0957
   },
   {
     "name": "Recinto Ferial",
-    "lat": 4.528102,
-    "lon": -74.126457
+    "lat": 4.6127,
+    "lon": -74.0903
   },
   {
     "name": "Restrepo",
-    "lat": 4.579561,
-    "lon": -74.151202
+    "lat": 4.5812,
+    "lon": -74.0905
   },
   {
     "name": "Ricaurte",
-    "lat": 4.791903,
-    "lon": -74.12138
+    "lat": 4.5977,
+    "lon": -74.1005
   },
   {
     "name": "Rionegro",
-    "lat": 4.767614,
-    "lon": -74.073772
+    "lat": 4.5887,
+    "lon": -74.0845
   },
   {
     "name": "SENA",
-    "lat": 4.738443,
-    "lon": -74.099473
+    "lat": 4.5767,
+    "lon": -74.0987
   },
   {
     "name": "Salitre Greco",
-    "lat": 4.673071,
-    "lon": -74.101496
+    "lat": 4.6627,
+    "lon": -74.0953
   },
   {
     "name": "San Bernardo",
-    "lat": 4.558573,
-    "lon": -74.05551
+    "lat": 4.5877,
+    "lon": -74.0865
   },
   {
     "name": "San Diego",
-    "lat": 4.584232,
-    "lon": -74.195137
+    "lat": 4.609656,
+    "lon": -74.072432
   },
   {
     "name": "San Façon - Carrera 22",
-    "lat": 4.693642,
-    "lon": -74.164578
+    "lat": 4.6225,
+    "lon": -74.0718
   },
   {
     "name": "San Victorino Neos Centro",
-    "lat": 4.782138,
-    "lon": -74.009214
+    "lat": 4.6027,
+    "lon": -74.0768
   },
   {
     "name": "Santa Isabel",
-    "lat": 4.774459,
-    "lon": -74.125968
+    "lat": 4.608206,
+    "lon": -74.103922
   },
   {
     "name": "Santa Lucía",
-    "lat": 4.504637,
-    "lon": -74.014336
+    "lat": 4.574911,
+    "lon": -74.127497
   },
   {
     "name": "Sevillana",
-    "lat": 4.628455,
-    "lon": -74.006669
+    "lat": 4.5587,
+    "lon": -74.1275
   },
   {
     "name": "Socorro",
-    "lat": 4.789086,
-    "lon": -74.029398
+    "lat": 4.5837,
+    "lon": -74.0895
   },
   {
     "name": "Tercer Milenio",
-    "lat": 4.588335,
-    "lon": -74.12298
+    "lat": 4.5937,
+    "lon": -74.0815
   },
   {
     "name": "Terminal",
-    "lat": 4.755341,
-    "lon": -74.136616
+    "lat": 4.7717,
+    "lon": -74.0435
   },
   {
     "name": "Terreros - Hospital C.V.",
-    "lat": 4.550848,
-    "lon": -74.08864
+    "lat": 4.5847,
+    "lon": -74.1157
   },
   {
     "name": "Toberín - Foundever",
-    "lat": 4.780846,
-    "lon": -74.060794
+    "lat": 4.7457,
+    "lon": -74.0472
   },
   {
     "name": "Transversal 86",
-    "lat": 4.671018,
-    "lon": -74.180565
+    "lat": 4.7012,
+    "lon": -74.0875
   },
   {
     "name": "Tygua - San José",
-    "lat": 4.684502,
-    "lon": -74.001989
+    "lat": 4.5767,
+    "lon": -74.0965
   },
   {
     "name": "Universidad Nacional de Colombia",
-    "lat": 4.542025,
-    "lon": -74.096334
+    "lat": 4.6157,
+    "lon": -74.0905
   },
   {
     "name": "Universidades",
-    "lat": 4.763212,
-    "lon": -74.051846
+    "lat": 4.6507,
+    "lon": -74.0785
   },
   {
     "name": "Venecia",
-    "lat": 4.709105,
-    "lon": -74.059503
+    "lat": 4.60967,
+    "lon": -74.128601
   },
   {
     "name": "Virrey",
-    "lat": 4.607847,
-    "lon": -74.141282
+    "lat": 4.675994,
+    "lon": -74.059012
   },
   {
     "name": "Zona Industrial",
-    "lat": 4.742808,
-    "lon": -74.037977
+    "lat": 4.620322,
+    "lon": -74.098689
   }
 ]
