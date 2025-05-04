@@ -59,13 +59,23 @@ async function init() {
   const grafo = new Grafo(names, edges);
   const baseAdj = grafo.adj.map(r=>r.slice()); // immutable base weights
 
-  // enable/disable manual inputs
-  const chkTime=document.getElementById('use-now-time');
-  const timeInp=document.getElementById('time-input');
-  chkTime.addEventListener('change',()=>{timeInp.disabled=chkTime.checked;});
-  const chkDay=document.getElementById('use-now-day');
-  const daySel=document.getElementById('day-input');
-  chkDay.addEventListener('change',()=>{daySel.disabled=chkDay.checked;});
+  /* ---------- Hora slider & presets ---------- */
+  const hourSlider=document.getElementById('hour-slider');
+  const hourDisp=document.getElementById('hour-display');
+  hourSlider.value=new Date().getHours();
+  hourDisp.textContent=`${hourSlider.value}h`;
+  hourSlider.addEventListener('input',()=>{hourDisp.textContent=`${hourSlider.value}h`;});
+
+  const presetSel=document.getElementById('preset');
+  presetSel.addEventListener('change',()=>{
+    switch(presetSel.value){
+      case 'peak': hourSlider.value=7; document.getElementById('weather').value='soleado'; break;
+      case 'off': hourSlider.value=14; document.getElementById('weather').value='soleado'; break;
+      case 'rain': hourSlider.value=18; document.getElementById('weather').value='lluvioso'; break;
+      default: /* keep current */ break;
+    }
+    hourDisp.textContent=`${hourSlider.value}h`;
+  });
 
   /* ---------- Autocomplete ---------- */
   function setupAutocomplete(inputId) {
@@ -132,13 +142,9 @@ async function init() {
       return;
     }
 
-    // Dynamic weight multiplier
-    let hour,dow;
-    if(chkTime.checked){hour=new Date().getHours();}
-    else{ const parts=timeInp.value.split(':'); hour=parseInt(parts[0]||'0'); if(isNaN(hour)||hour<0||hour>23) hour=new Date().getHours(); }
-    if(chkDay.checked){dow=new Date().getDay();}
-    else{ dow=parseInt(daySel.value); if(isNaN(dow)||dow<0||dow>6) dow=new Date().getDay(); }
-
+    // Dynamic weight multiplier using slider hour and current day
+    const hour=parseInt(hourSlider.value);
+    const dow=new Date().getDay();
     const tau24=[0.75,0.75,0.75,0.75,0.9,0.9,1.4,1.4,1.4,1,1,1,1,1,1,1.45,1.45,1.45,1.15,1.15,1.15,0.75,0.75,0.75];
     const delta=[1,1,1,1,1,0.9,0.8]; // Sunday first
     const kappaMap={soleado:1, lluvioso:1.25, tormenta:1.45};
@@ -237,6 +243,37 @@ async function init() {
       const row=document.querySelector(`#details tr[data-idx='${idx}']`);
       if(row) row.classList.toggle('highlight',on);
   }
+
+  /* ---------- Nearest station button ---------- */
+  function haversine(lat1,lon1,lat2,lon2){
+     const R=6371e3;
+     const toRad=d=>d*Math.PI/180;
+     const φ1=toRad(lat1), φ2=toRad(lat2);
+     const Δφ=toRad(lat2-lat1);
+     const Δλ=toRad(lon2-lon1);
+     const a=Math.sin(Δφ/2)**2+Math.cos(φ1)*Math.cos(φ2)*Math.sin(Δλ/2)**2;
+     return R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
+  }
+
+  document.getElementById('btn-nearest').addEventListener('click',()=>{
+     if(!navigator.geolocation){showSnackbar('Geolocalización no soportada','error');return;}
+     navigator.geolocation.getCurrentPosition(pos=>{
+        const {latitude,longitude}=pos.coords;
+        let best=-1,bestD=Infinity;
+        markerCoords.forEach(([lat,lon],idx)=>{
+            if(lat==null||lon==null) return;
+            const d=haversine(latitude,longitude,lat,lon);
+            if(d<bestD){bestD=d;best=idx;}
+        });
+        if(best===-1){showSnackbar('No hay estaciones con coordenadas','error');return;}
+        document.getElementById('origen').value=names[best];
+        highlightMarker(best,true);
+        map.setView(markerCoords[best],14);
+        if(window._geoLine) window._geoLine.remove();
+        window._geoLine=L.polyline([[latitude,longitude],markerCoords[best]],{color:'blue',dashArray:'4'}).addTo(map);
+        showSnackbar('Origen establecido a estación más cercana','success');
+     },()=>showSnackbar('No se pudo obtener ubicación','error'));
+  });
 }
 
 document.addEventListener('DOMContentLoaded', init);
