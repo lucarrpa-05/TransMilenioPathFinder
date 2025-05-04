@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>TransMilenio Path Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+  <header>
+    <h1>TransMilenio Path&nbsp;Finder</h1>
+    <button id="theme-toggle">🌙</button>
+  </header>
+  <main>
+    <section id="controls">
+      <label for="origen">Origen:</label>
+      <input id="origen" list="stations" />
+
+      <label for="paso">Paso obligatorio:</label>
+      <input id="paso" list="stations" />
+
+      <label for="destino">Destino:</label>
+      <input id="destino" list="stations" />
+
+      <label for="weather">Clima:</label>
+      <select id="weather">
+        <option value="soleado">Soleado</option>
+        <option value="lluvioso">Lluvioso</option>
+        <option value="tormenta">Tormenta</option>
+      </select>
+
+      <label><input type="checkbox" id="use-now-time" checked> Usar hora actual</label>
+      <input type="time" id="time-input" value="12:00" disabled />
+
+      <label><input type="checkbox" id="use-now-day" checked> Usar día actual</label>
+      <select id="day-input" disabled>
+        <option value="0">Domingo</option>
+        <option value="1">Lunes</option>
+        <option value="2">Martes</option>
+        <option value="3">Miércoles</option>
+        <option value="4">Jueves</option>
+        <option value="5">Viernes</option>
+        <option value="6">Sábado</option>
+      </select>
+
+      <button id="calc">Calcular ruta</button>
+      <datalist id="stations"></datalist>
+    </section>
+    <section id="output">
+      <div id="map"></div>
+      <pre id="result"></pre>
+      <table id="details"></table>
+    </section>
+  </main>
+  <div id="snackbar"></div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
